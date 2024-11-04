@@ -1,0 +1,241 @@
+Model,Metric,Fold,Score
+GT-NAC,Accuracy,1,0.999407 
+GT-NAC,Accuracy,2,0.999373 
+GT-NAC,Accuracy,3,0.999455 
+GT-NAC,Accuracy,4,0.999498 
+GT-NAC,Accuracy,5,0.999441 
+GT-NAC,Accuracy,6,0.999566 
+GT-NAC,Accuracy,7,0.999470 
+GT-NAC,Accuracy,8,0.999450 
+GT-NAC,Accuracy,9,0.999378 
+GT-NAC,Accuracy,10,0.999474 
+GT-NAC,Precision,1,0.992454
+GT-NAC,Precision,2,0.992147
+GT-NAC,Precision,3,0.992959
+GT-NAC,Precision,4,0.993919
+GT-NAC,Precision,5,0.993065
+GT-NAC,Precision,6,0.994667
+GT-NAC,Precision,7,0.993314
+GT-NAC,Precision,8,0.992950
+GT-NAC,Precision,9,0.992265
+GT-NAC,Precision,10,0.993551
+GT-NAC,Recall,1,0.999570 
+GT-NAC,Recall,2,0.999431 
+GT-NAC,Recall,3,0.999717 
+GT-NAC,Recall,4,0.999314 
+GT-NAC,Recall,5,0.999406 
+GT-NAC,Recall,6,0.999471 
+GT-NAC,Recall,7,0.999542 
+GT-NAC,Recall,8,0.999653 
+GT-NAC,Recall,9,0.999373 
+GT-NAC,Recall,10,0.999362 
+GCN,Accuracy,1,0.989313 
+GCN,Accuracy,2,0.988768 
+GCN,Accuracy,3,0.988749 
+GCN,Accuracy,4,0.989193 
+GCN,Accuracy,5,0.988522 
+GCN,Accuracy,6,0.988759 
+GCN,Accuracy,7,0.988846 
+GCN,Accuracy,8,0.988860 
+GCN,Accuracy,9,0.989212 
+GCN,Accuracy,10,0.989333 
+GCN,Precision,1,0.964004
+GCN,Precision,2,0.953337
+GCN,Precision,3,0.962134
+GCN,Precision,4,0.966209
+GCN,Precision,5,0.955248
+GCN,Precision,6,0.957553
+GCN,Precision,7,0.956525
+GCN,Precision,8,0.956968
+GCN,Precision,9,0.963616
+GCN,Precision,10,0.963083
+GCN,Recall,1,0.884726 
+GCN,Recall,2,0.887275 
+GCN,Recall,3,0.878419 
+GCN,Recall,4,0.881032 
+GCN,Recall,5,0.881685 
+GCN,Recall,6,0.882856 
+GCN,Recall,7,0.885134 
+GCN,Recall,8,0.884870 
+GCN,Recall,9,0.883714 
+GCN,Recall,10,0.885933 
+Graph Autoencoder,Accuracy,1,0.998650 
+Graph Autoencoder,Accuracy,2,0.997632 
+Graph Autoencoder,Accuracy,3,0.996721 
+Graph Autoencoder,Accuracy,4,0.996509 
+Graph Autoencoder,Accuracy,5,0.997425 
+Graph Autoencoder,Accuracy,6,0.997406 
+Graph Autoencoder,Accuracy,7,0.997830 
+Graph Autoencoder,Accuracy,8,0.998510 
+Graph Autoencoder,Accuracy,9,0.998052 
+Graph Autoencoder,Accuracy,10,0.997705 
+Graph Autoencoder,Precision,1,0.988821
+Graph Autoencoder,Precision,2,0.978310
+Graph Autoencoder,Precision,3,0.963402
+Graph Autoencoder,Precision,4,0.961180
+Graph Autoencoder,Precision,5,0.977172
+Graph Autoencoder,Precision,6,0.981251
+Graph Autoencoder,Precision,7,0.981723
+Graph Autoencoder,Precision,8,0.987905
+Graph Autoencoder,Precision,9,0.983439
+Graph Autoencoder,Precision,10,0.982212
+Graph Autoencoder,Recall,1,0.992858 
+Graph Autoencoder,Recall,2,0.989968 
+Graph Autoencoder,Recall,3,0.994472 
+Graph Autoencoder,Recall,4,0.994117 
+Graph Autoencoder,Recall,5,0.988282 
+Graph Autoencoder,Recall,6,0.983471 
+Graph Autoencoder,Recall,7,0.988973 
+Graph Autoencoder,Recall,8,0.991875 
+Graph Autoencoder,Recall,9,0.990245 
+Graph Autoencoder,Recall,10,0.986661 
+MLP,Accuracy,1,0.997531 
+MLP,Accuracy,2,0.998766 
+MLP,Accuracy,3,0.998660 
+MLP,Accuracy,4,0.999013 
+MLP,Accuracy,5,0.998730 
+MLP,Accuracy,6,0.998766 
+MLP,Accuracy,7,0.998730 
+MLP,Accuracy,8,0.998625 
+MLP,Accuracy,9,0.998730 
+MLP,Accuracy,10,0.998589 
+MLP,Precision,1,0.996494 
+MLP,Precision,2,0.998218 
+MLP,Precision,3,0.998278 
+MLP,Precision,4,0.998644 
+MLP,Precision,5,0.998190 
+MLP,Precision,6,0.998288 
+MLP,Precision,7,0.998309 
+MLP,Precision,8,0.998038 
+MLP,Precision,9,0.998214 
+MLP,Precision,10,0.998035 
+MLP,Recall,1,0.998067 
+MLP,Recall,2,0.999058 
+MLP,Recall,3,0.998759 
+MLP,Recall,4,0.999174 
+MLP,Recall,5,0.999007 
+MLP,Recall,6,0.998985 
+MLP,Recall,7,0.998886 
+MLP,Recall,8,0.998926 
+MLP,Recall,9,0.998982 
+MLP,Recall,10,0.998851 
+CNN,Accuracy,1,0.998625 
+CNN,Accuracy,2,0.998589 
+CNN,Accuracy,3,0.998907 
+CNN,Accuracy,4,0.999118 
+CNN,Accuracy,5,0.997849 
+CNN,Accuracy,6,0.998871 
+CNN,Accuracy,7,0.998942 
+CNN,Accuracy,8,0.998695 
+CNN,Accuracy,9,0.998766 
+CNN,Accuracy,10,0.998695 
+CNN,Precision,1,0.998015 
+CNN,Precision,2,0.997987 
+CNN,Precision,3,0.998444 
+CNN,Precision,4,0.998726 
+CNN,Precision,5,0.997632 
+CNN,Precision,6,0.998370 
+CNN,Precision,7,0.998495 
+CNN,Precision,8,0.998140 
+CNN,Precision,9,0.998218 
+CNN,Precision,10,0.998187 
+CNN,Recall,1,0.998950 
+CNN,Recall,2,0.998899 
+CNN,Recall,3,0.999141 
+CNN,Recall,4,0.999327 
+CNN,Recall,5,0.997608 
+CNN,Recall,6,0.999139 
+CNN,Recall,7,0.999168 
+CNN,Recall,8,0.998980 
+CNN,Recall,9,0.999058 
+CNN,Recall,10,0.998931 
+Random Forests,Accuracy,1,0.999753 
+Random Forests,Accuracy,2,0.999436 
+Random Forests,Accuracy,3,0.999718 
+Random Forests,Accuracy,4,0.999718 
+Random Forests,Accuracy,5,0.999577 
+Random Forests,Accuracy,6,0.999683 
+Random Forests,Accuracy,7,0.999506 
+Random Forests,Accuracy,8,0.999471 
+Random Forests,Accuracy,9,0.999788 
+Random Forests,Accuracy,10,0.999400 
+Random Forests,Precision,1,0.999643 
+Random Forests,Precision,2,0.999184 
+Random Forests,Precision,3,0.999591 
+Random Forests,Precision,4,0.999616 
+Random Forests,Precision,5,0.999411 
+Random Forests,Precision,6,0.999564 
+Random Forests,Precision,7,0.999309 
+Random Forests,Precision,8,0.999258 
+Random Forests,Precision,9,0.999694 
+Random Forests,Precision,10,0.999228 
+Random Forests,Recall,1,0.999812 
+Random Forests,Recall,2,0.999569 
+Random Forests,Recall,3,0.999785 
+Random Forests,Recall,4,0.999760 
+Random Forests,Recall,5,0.999653 
+Random Forests,Recall,6,0.999734 
+Random Forests,Recall,7,0.999599 
+Random Forests,Recall,8,0.999572 
+Random Forests,Recall,9,0.999838 
+Random Forests,Recall,10,0.999446 
+Naive Bayes,Accuracy,1,0.975384 
+Naive Bayes,Accuracy,2,0.983354 
+Naive Bayes,Accuracy,3,0.980110 
+Naive Bayes,Accuracy,4,0.977959 
+Naive Bayes,Accuracy,5,0.983037 
+Naive Bayes,Accuracy,6,0.976583 
+Naive Bayes,Accuracy,7,0.975984 
+Naive Bayes,Accuracy,8,0.978100 
+Naive Bayes,Accuracy,9,0.977253 
+Naive Bayes,Accuracy,10,0.977570 
+Naive Bayes,Precision,1,0.978993 
+Naive Bayes,Precision,2,0.985478 
+Naive Bayes,Precision,3,0.983038 
+Naive Bayes,Precision,4,0.981450 
+Naive Bayes,Precision,5,0.985187 
+Naive Bayes,Precision,6,0.980354 
+Naive Bayes,Precision,7,0.979972 
+Naive Bayes,Precision,8,0.981137 
+Naive Bayes,Precision,9,0.980846 
+Naive Bayes,Precision,10,0.980634 
+Naive Bayes,Recall,1,0.966699 
+Naive Bayes,Recall,2,0.977739 
+Naive Bayes,Recall,3,0.973061 
+Naive Bayes,Recall,4,0.969944 
+Naive Bayes,Recall,5,0.977327 
+Naive Bayes,Recall,6,0.968023 
+Naive Bayes,Recall,7,0.967106 
+Naive Bayes,Recall,8,0.970511 
+Naive Bayes,Recall,9,0.968994 
+Naive Bayes,Recall,10,0.969841 
+KNN,Accuracy,1,0.999577 
+KNN,Accuracy,2,0.999259 
+KNN,Accuracy,3,0.999506 
+KNN,Accuracy,4,0.999506 
+KNN,Accuracy,5,0.999400 
+KNN,Accuracy,6,0.999400 
+KNN,Accuracy,7,0.999224 
+KNN,Accuracy,8,0.999224 
+KNN,Accuracy,9,0.999365 
+KNN,Accuracy,10,0.999259 
+KNN,Precision,1,0.999411 
+KNN,Precision,2,0.998977 
+KNN,Precision,3,0.999333 
+KNN,Precision,4,0.999357 
+KNN,Precision,5,0.999228 
+KNN,Precision,6,0.999252 
+KNN,Precision,7,0.999021 
+KNN,Precision,8,0.998902 
+KNN,Precision,9,0.999177 
+KNN,Precision,10,0.999025 
+KNN,Recall,1,0.999653 
+KNN,Recall,2,0.999386 
+KNN,Recall,3,0.999575 
+KNN,Recall,4,0.999551 
+KNN,Recall,5,0.999446 
+KNN,Recall,6,0.999421 
+KNN,Recall,7,0.999263 
+KNN,Recall,8,0.999384 
+KNN,Recall,9,0.999419 
+KNN,Recall,10,0.999338 

@@ -1,10 +1,10 @@
 name: torch
 channels:
   - pyg
+  - conda-forge
   - pytorch
   - dglteam/label/th24_cu124
   - nvidia
-  - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
@@ -28,7 +28,7 @@ dependencies:
   - brotli-python=1.0.9=py312h6a678d5_8
   - bzip2=1.0.8=h5eee18b_6
   - ca-certificates=2024.9.24=h06a4308_0
-  - certifi=2024.8.30=pyhd8ed1ab_0
+  - certifi=2024.8.30=py312h06a4308_0
   - cffi=1.17.1=py312h1fdaa30_0
   - charset-normalizer=3.3.2=pyhd3eb1b0_0
   - comm=0.2.1=py312h06a4308_0
@@ -172,6 +172,7 @@ dependencies:
   - packaging=24.1=py312h06a4308_0
   - pandocfilters=1.5.0=pyhd3eb1b0_0
   - parso=0.8.3=pyhd3eb1b0_0
+  - patsy=0.5.6=py312h06a4308_0
   - pcre2=10.42=hebb0a14_1
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pillow=10.4.0=py312h5eee18b_0
@@ -223,6 +224,7 @@ dependencies:
   - soupsieve=2.5=py312h06a4308_0
   - sqlite=3.45.3=h5eee18b_0
   - stack_data=0.2.0=pyhd3eb1b0_0
+  - statsmodels=0.14.2=py312ha883a20_0
   - sympy=1.13.2=py312h06a4308_0
   - tbb=2021.8.0=hdb19cb5_0
   - terminado=0.17.1=py312h06a4308_0

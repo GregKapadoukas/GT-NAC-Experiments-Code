@@ -1,0 +1,49 @@
+File loaded successfully.
+Performing statistical tests for Accuracy
+
+ANOVA Table:
+            sum_sq    df         F        PR(>F)
+C(Model)  0.441768   2.0  32.25159  6.982682e-08
+Residual  0.184917  27.0       NaN           NaN
+
+Tukey’s HSD Test Results for Model across all Metrics:
+   Multiple Comparison of Means - Tukey HSD, FWER=0.05    
+==========================================================
+group1    group2    meandiff p-adj   lower   upper  reject
+----------------------------------------------------------
+   GCN       GT-NAC   0.0457 0.4439 -0.0461  0.1374  False
+   GCN Temporal GNN  -0.2315    0.0 -0.3233 -0.1398   True
+GT-NAC Temporal GNN  -0.2772    0.0  -0.369 -0.1854   True
+----------------------------------------------------------
+Performing statistical tests for Precision
+
+ANOVA Table:
+            sum_sq    df          F        PR(>F)
+C(Model)  0.273319   2.0  26.387071  4.449098e-07
+Residual  0.139834  27.0        NaN           NaN
+
+Tukey’s HSD Test Results for Model across all Metrics:
+   Multiple Comparison of Means - Tukey HSD, FWER=0.05    
+==========================================================
+group1    group2    meandiff p-adj   lower   upper  reject
+----------------------------------------------------------
+   GCN       GT-NAC   0.0388 0.4603  -0.041  0.1186  False
+   GCN Temporal GNN  -0.1803    0.0 -0.2601 -0.1005   True
+GT-NAC Temporal GNN  -0.2191    0.0 -0.2989 -0.1393   True
+----------------------------------------------------------
+Performing statistical tests for Recall
+
+ANOVA Table:
+            sum_sq    df          F        PR(>F)
+C(Model)  0.514098   2.0  29.716601  1.507380e-07
+Residual  0.233550  27.0        NaN           NaN
+
+Tukey’s HSD Test Results for Model across all Metrics:
+   Multiple Comparison of Means - Tukey HSD, FWER=0.05    
+==========================================================
+group1    group2    meandiff p-adj   lower   upper  reject
+----------------------------------------------------------
+   GCN       GT-NAC   0.0525 0.4277 -0.0506  0.1557  False
+   GCN Temporal GNN  -0.2477    0.0 -0.3508 -0.1445   True
+GT-NAC Temporal GNN  -0.3002    0.0 -0.4033 -0.1971   True
+----------------------------------------------------------

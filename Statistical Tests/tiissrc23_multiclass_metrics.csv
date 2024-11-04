@@ -1,0 +1,91 @@
+Model,Metric,Fold,Score
+GT-NAC,Accuracy,1,0.975490 
+GT-NAC,Accuracy,2,0.986438 
+GT-NAC,Accuracy,3,0.983357 
+GT-NAC,Accuracy,4,0.971748 
+GT-NAC,Accuracy,5,0.982257 
+GT-NAC,Accuracy,6,0.979809 
+GT-NAC,Accuracy,7,0.983330 
+GT-NAC,Accuracy,8,0.979506 
+GT-NAC,Accuracy,9,0.974142 
+GT-NAC,Accuracy,10,0.984513 
+GT-NAC,Precision,1,0.970537
+GT-NAC,Precision,2,0.983765
+GT-NAC,Precision,3,0.979439
+GT-NAC,Precision,4,0.968824
+GT-NAC,Precision,5,0.977876
+GT-NAC,Precision,6,0.974981
+GT-NAC,Precision,7,0.979254
+GT-NAC,Precision,8,0.975171
+GT-NAC,Precision,9,0.968627
+GT-NAC,Precision,10,0.980759
+GT-NAC,Recall,1,0.977377 
+GT-NAC,Recall,2,0.985868 
+GT-NAC,Recall,3,0.984342 
+GT-NAC,Recall,4,0.973430 
+GT-NAC,Recall,5,0.983328 
+GT-NAC,Recall,6,0.981145 
+GT-NAC,Recall,7,0.983945 
+GT-NAC,Recall,8,0.980528 
+GT-NAC,Recall,9,0.976311 
+GT-NAC,Recall,10,0.984935 
+GCN,Accuracy,1,0.983522 
+GCN,Accuracy,2,0.887764 
+GCN,Accuracy,3,0.980634 
+GCN,Accuracy,4,0.887406 
+GCN,Accuracy,5,0.894641 
+GCN,Accuracy,6,0.973812 
+GCN,Accuracy,7,0.980304 
+GCN,Accuracy,8,0.893678 
+GCN,Accuracy,9,0.888039 
+GCN,Accuracy,10,0.974004 
+GCN,Precision,1,0.980975
+GCN,Precision,2,0.895187
+GCN,Precision,3,0.979355
+GCN,Precision,4,0.888733
+GCN,Precision,5,0.903138
+GCN,Precision,6,0.972358
+GCN,Precision,7,0.978354
+GCN,Precision,8,0.912843
+GCN,Precision,9,0.887267
+GCN,Precision,10,0.973106
+GCN,Recall,1,0.983747 
+GCN,Recall,2,0.877574 
+GCN,Recall,3,0.977415 
+GCN,Recall,4,0.880139 
+GCN,Recall,5,0.880539 
+GCN,Recall,6,0.974677 
+GCN,Recall,7,0.980320 
+GCN,Recall,8,0.878036 
+GCN,Recall,9,0.882070 
+GCN,Recall,10,0.971344 
+Temporal GNN,Accuracy,1,0.725446 
+Temporal GNN,Accuracy,2,0.729464 
+Temporal GNN,Accuracy,3,0.844643 
+Temporal GNN,Accuracy,4,0.871429 
+Temporal GNN,Accuracy,5,0.744196 
+Temporal GNN,Accuracy,6,0.814286 
+Temporal GNN,Accuracy,7,0.424554 
+Temporal GNN,Accuracy,8,0.568750 
+Temporal GNN,Accuracy,9,0.632143 
+Temporal GNN,Accuracy,10,0.673661 
+Temporal GNN,Precision,1,0.800450
+Temporal GNN,Precision,2,0.769515
+Temporal GNN,Precision,3,0.870496
+Temporal GNN,Precision,4,0.871392
+Temporal GNN,Precision,5,0.780635
+Temporal GNN,Precision,6,0.867295
+Temporal GNN,Precision,7,0.618477
+Temporal GNN,Precision,8,0.597485
+Temporal GNN,Precision,9,0.572705
+Temporal GNN,Precision,10,0.820097
+Temporal GNN,Recall,1,0.750191 
+Temporal GNN,Recall,2,0.694508
+Temporal GNN,Recall,3,0.848698 
+Temporal GNN,Recall,4,0.883291 
+Temporal GNN,Recall,5,0.732536 
+Temporal GNN,Recall,6,0.778229 
+Temporal GNN,Recall,7,0.386933 
+Temporal GNN,Recall,8,0.529370 
+Temporal GNN,Recall,9,0.575287 
+Temporal GNN,Recall,10,0.630062 
