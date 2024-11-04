@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/876058790.svg)](https://doi.org/10.5281/zenodo.14035458)
+
 # GT-NAC Experiments Code
 
 ## Description
