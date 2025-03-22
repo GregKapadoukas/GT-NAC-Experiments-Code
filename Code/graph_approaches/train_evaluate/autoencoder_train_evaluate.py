@@ -9,7 +9,7 @@ from torcheval.metrics.functional import (
     multiclass_recall,
 )
 
-from graph_transformer.train_evaluate import getBatch, printClassificationReport
+from train_evaluate.train_evaluate import getBatch, printClassificationReport
 
 
 def autoencoder_train(
@@ -62,6 +62,13 @@ def autoencoder_train(
                     f"| epoch {epoch_num} "
                     f"| mean batch loss: {mean_batch_loss} "
                     f"| fold {evaluation_mode['fold']} "
+                )
+            if evaluation_mode["mode"] == "train-test-dev":
+                print(
+                    f"| batch {batch_num+1}/{num_batches} "
+                    f"| epoch {epoch_num} "
+                    f"| mean batch loss: {mean_batch_loss} "
+                    f"| set {evaluation_mode['set']} "
                 )
             else:
                 print(
@@ -150,6 +157,14 @@ def classifier_train(
                     f"| accuracy {accuracy} "
                     f"| fold {evaluation_mode['fold']} "
                 )
+            if evaluation_mode["mode"] == "train-test-dev":
+                print(
+                    f"| batch {batch_num+1}/{num_batches} "
+                    f"| epoch {epoch_num} "
+                    f"| mean batch loss: {mean_batch_loss} "
+                    f"| accuracy {accuracy} "
+                    f"| set {evaluation_mode['set']} "
+                )
             else:
                 print(
                     f"| batch {batch_num+1}/{num_batches} "
@@ -229,6 +244,10 @@ def autoencoder_dnn_evaluate(
                 if evaluation_mode["mode"] == "cv":
                     print(
                         f"| evaluation batch {batch_num+1}/{num_batches} | batch loss {batch_loss} | accuracy {accuracy} | fold {evaluation_mode['fold']}"
+                    )
+                if evaluation_mode["mode"] == "train-test-dev":
+                    print(
+                        f"| evaluation batch {batch_num+1}/{num_batches} | batch loss {batch_loss} | accuracy {accuracy} | set {evaluation_mode['set']}"
                     )
                 else:
                     print(

@@ -4,13 +4,18 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import torch.nn.functional as F
-from sklearn.metrics import (ConfusionMatrixDisplay, classification_report,
-                             confusion_matrix)
+from sklearn.metrics import (
+    ConfusionMatrixDisplay,
+    classification_report,
+    confusion_matrix,
+)
 from torch import nn
-from torcheval.metrics.functional import (multiclass_accuracy,
-                                          multiclass_f1_score,
-                                          multiclass_precision,
-                                          multiclass_recall)
+from torcheval.metrics.functional import (
+    multiclass_accuracy,
+    multiclass_f1_score,
+    multiclass_precision,
+    multiclass_recall,
+)
 
 
 def train(
@@ -71,6 +76,14 @@ def train(
                     f"| mean batch loss: {mean_batch_loss} "
                     f"| accuracy {accuracy} "
                     f"| fold {evaluation_mode['fold']} "
+                )
+            elif evaluation_mode["mode"] == "train-test-dev":
+                print(
+                    f"| batch {batch_num+1}/{num_batches} "
+                    f"| epoch {epoch_num} "
+                    f"| mean batch loss: {mean_batch_loss} "
+                    f"| accuracy {accuracy} "
+                    f"| set {evaluation_mode['set']} "
                 )
             else:
                 print(
@@ -145,6 +158,10 @@ def evaluate(
                 if evaluation_mode["mode"] == "cv":
                     print(
                         f"| evaluation batch {batch_num+1}/{num_batches} | batch loss {batch_loss} | accuracy {accuracy} | fold {evaluation_mode['fold']}"
+                    )
+                if evaluation_mode["mode"] == "train-test-dev":
+                    print(
+                        f"| evaluation batch {batch_num+1}/{num_batches} | batch loss {batch_loss} | accuracy {accuracy} | set {evaluation_mode['set']}"
                     )
                 else:
                     print(
@@ -226,6 +243,13 @@ def printClassificationReport(
         plt.title(f"Fold {evaluation_mode['fold']}")
         plt.savefig(
             f"Results/Diagrams/{evaluation_mode['name']}-fold-{evaluation_mode['fold']}-confusion_diagram.png",
+            dpi=300,
+            bbox_inches="tight",
+        )
+    if evaluation_mode["mode"] == "train-test-dev":
+        plt.title(f"Set {evaluation_mode['set']}")
+        plt.savefig(
+            f"Results/Diagrams/{evaluation_mode['name']}-{evaluation_mode['set']}-confusion_diagram.png",
             dpi=300,
             bbox_inches="tight",
         )

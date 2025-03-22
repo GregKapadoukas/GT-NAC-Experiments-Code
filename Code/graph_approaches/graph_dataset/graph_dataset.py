@@ -48,24 +48,36 @@ def loadDynamicGraphDataset(dynamic_graphs_path, one_hot_mapping, files_per_clas
     return graphs, labels
 
 
-def splitGraphDataset(graphs, labels, train_size, correct_class_imbalance, device):
+def splitGraphDataset(
+    graphs, labels, test_size, dev_size, correct_class_imbalance, device
+):
     graphs_train, graphs_test, labels_train, labels_test = train_test_split(
         graphs,
         labels,
         random_state=100,
-        train_size=train_size,
+        test_size=test_size,
         shuffle=True,
         stratify=labels,
+    )
+    graphs_train, graphs_dev, labels_train, labels_dev = train_test_split(
+        graphs_train,
+        labels_train,
+        random_state=100,
+        test_size=dev_size / (1 - test_size),
+        shuffle=True,
+        stratify=labels_train,
     )
     if correct_class_imbalance:
         graphs_train, labels_train = oversampleInfrequentClasses(
             graphs_train, labels_train
         )
     graphs_train = [g.to(device) for g in graphs_train]
+    graphs_dev = [g.to(device) for g in graphs_dev]
     graphs_test = [g.to(device) for g in graphs_test]
     labels_train = labels_train.to(device)  # type: ignore
+    labels_dev = labels_dev.to(device)  # type: ignore
     labels_test = labels_test.to(device)  # type: ignore
-    return graphs_train, graphs_test, labels_train, labels_test
+    return graphs_train, graphs_dev, graphs_test, labels_train, labels_dev, labels_test
 
 
 def oversampleInfrequentClasses(graphs_train, labels_train):

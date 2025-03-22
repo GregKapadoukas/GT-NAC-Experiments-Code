@@ -1,10 +1,7 @@
 import torch
 from torch import nn
 
-from graph_transformer.graph_transformer import (
-    GraphEncoderLayer,
-    LaplacianGraphEmbeddings,
-)
+from gnn.graph_transformer import GraphEncoderLayer, LaplacianGraphEmbeddings
 
 
 class GraphTransformerAutoencoder(nn.Module):

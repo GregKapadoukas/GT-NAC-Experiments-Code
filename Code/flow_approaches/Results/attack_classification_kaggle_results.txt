@@ -1,0 +1,170 @@
+Running MLP Classifier
+Dev Accuracy: 0.9890675694738327
+Dev Macro-Precision: 0.9718610477896588
+Dev Macro-Recall: 0.9508590728672527
+Dev Macro-F-Score: 0.9594774834828975
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+         Syn       1.00      0.99      0.99      4937
+        TFTP       1.00      0.99      1.00      9892
+         UDP       0.93      1.00      0.96      2851
+     UDP-lag       0.94      0.77      0.85       893
+
+    accuracy                           0.99     28356
+   macro avg       0.97      0.95      0.96     28356
+weighted avg       0.99      0.99      0.99     28356
+
+Test Accuracy: 0.9875511355621385
+Test Macro-Precision: 0.9682841974924014
+Test Macro-Recall: 0.9450504514238958
+Test Macro-F-Score: 0.9543225263657071
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+         Syn       1.00      0.99      0.99      4937
+        TFTP       1.00      0.99      1.00      9892
+         UDP       0.92      1.00      0.96      2851
+     UDP-lag       0.93      0.74      0.83       893
+
+    accuracy                           0.99     28356
+   macro avg       0.97      0.95      0.95     28356
+weighted avg       0.99      0.99      0.99     28356
+
+
+Running CNN Classifier
+Dev Accuracy: 0.989173367188602
+Dev Macro-Precision: 0.9719878182398796
+Dev Macro-Recall: 0.9514683629954364
+Dev Macro-F-Score: 0.9598623118638102
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+         Syn       1.00      0.99      0.99      4937
+        TFTP       1.00      0.99      1.00      9892
+         UDP       0.93      1.00      0.96      2851
+     UDP-lag       0.94      0.77      0.85       893
+
+    accuracy                           0.99     28356
+   macro avg       0.97      0.95      0.96     28356
+weighted avg       0.99      0.99      0.99     28356
+
+Test Accuracy: 0.9871632106079842
+Test Macro-Precision: 0.9669702217334665
+Test Macro-Recall: 0.9452433885364444
+Test Macro-F-Score: 0.9537624312786512
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+         Syn       1.00      0.99      0.99      4937
+        TFTP       1.00      0.99      1.00      9892
+         UDP       0.91      1.00      0.95      2851
+     UDP-lag       0.93      0.75      0.83       893
+
+    accuracy                           0.99     28356
+   macro avg       0.97      0.95      0.95     28356
+weighted avg       0.99      0.99      0.99     28356
+
+
+Running Random Forest Classifier
+Dev Accuracy: 0.9895612921427563
+Dev Macro-Precision: 0.9647661754897078
+Dev Macro-Recall: 0.9525959160647088
+Dev Macro-F-Score: 0.9579439509858302
+              precision    recall  f1-score   support
+
+      Benign       0.35      0.35      0.35      9783
+         Syn       0.17      0.17      0.17      4937
+        TFTP       0.35      0.35      0.35      9892
+         UDP       0.10      0.11      0.11      2851
+     UDP-lag       0.03      0.02      0.02       893
+
+    accuracy                           0.28     28356
+   macro avg       0.20      0.20      0.20     28356
+weighted avg       0.28      0.28      0.28     28356
+
+Test Accuracy: 0.9881506559458316
+Test Macro-Precision: 0.9591671838820538
+Test Macro-Recall: 0.9460548539732981
+Test Macro-F-Score: 0.9516751442387547
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+         Syn       1.00      0.99      1.00      4937
+        TFTP       1.00      1.00      1.00      9892
+         UDP       0.93      0.98      0.96      2851
+     UDP-lag       0.87      0.76      0.81       893
+
+    accuracy                           0.99     28356
+   macro avg       0.96      0.95      0.95     28356
+weighted avg       0.99      0.99      0.99     28356
+
+
+Running Naive Bayes Classifier
+Dev Accuracy: 0.8399985893638031
+Dev Macro-Precision: 0.7614620859839221
+Dev Macro-Recall: 0.7406663726531779
+Dev Macro-F-Score: 0.7382914548507354
+              precision    recall  f1-score   support
+
+      Benign       0.35      0.22      0.27      9783
+         Syn       0.17      0.19      0.18      4937
+        TFTP       0.35      0.35      0.35      9892
+         UDP       0.10      0.11      0.11      2851
+     UDP-lag       0.03      0.12      0.05       893
+
+    accuracy                           0.25     28356
+   macro avg       0.20      0.20      0.19     28356
+weighted avg       0.28      0.25      0.26     28356
+
+Test Accuracy: 0.8395048666948793
+Test Macro-Precision: 0.7584776647265361
+Test Macro-Recall: 0.7396225449737251
+Test Macro-F-Score: 0.7365922704927692
+              precision    recall  f1-score   support
+
+      Benign       0.99      0.64      0.78      9783
+         Syn       0.89      0.98      0.93      4937
+        TFTP       1.00      0.98      0.99      9892
+         UDP       0.89      1.00      0.94      2851
+     UDP-lag       0.02      0.09      0.04       893
+
+    accuracy                           0.84     28356
+   macro avg       0.76      0.74      0.74     28356
+weighted avg       0.93      0.84      0.87     28356
+
+
+Running KNN Classifier
+Dev Accuracy: 0.9745732825504303
+Dev Macro-Precision: 0.9024774304649339
+Dev Macro-Recall: 0.9201489141154493
+Dev Macro-F-Score: 0.9097171880500138
+              precision    recall  f1-score   support
+
+      Benign       0.35      0.35      0.35      9783
+         Syn       0.17      0.17      0.17      4937
+        TFTP       0.35      0.35      0.35      9892
+         UDP       0.11      0.10      0.10      2851
+     UDP-lag       0.03      0.03      0.03       893
+
+    accuracy                           0.28     28356
+   macro avg       0.20      0.20      0.20     28356
+weighted avg       0.28      0.28      0.28     28356
+
+Test Accuracy: 0.9718930737762731
+Test Macro-Precision: 0.8934381978502565
+Test Macro-Recall: 0.9136094728735417
+Test Macro-F-Score: 0.9011322335715889
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+         Syn       0.99      0.96      0.98      4937
+        TFTP       1.00      1.00      1.00      9892
+         UDP       0.93      0.88      0.91      2851
+     UDP-lag       0.55      0.72      0.63       893
+
+    accuracy                           0.97     28356
+   macro avg       0.89      0.91      0.90     28356
+weighted avg       0.98      0.97      0.97     28356
+
+{'MLP': {'Dev Accuracy': 0.9890675694738327, 'Dev Macro-Precision': 0.9718610477896588, 'Dev Macro-Recall': 0.9508590728672527, 'Dev Macro-F-Score': 0.9594774834828975, 'Test Accuracy': 0.9875511355621385, 'Test Macro-Precision': 0.9682841974924014, 'Test Macro-Recall': 0.9450504514238958, 'Test Macro-F-Score': 0.9543225263657071}, 'CNN': {'Dev Accuracy': 0.989173367188602, 'Dev Macro-Precision': 0.9719878182398796, 'Dev Macro-Recall': 0.9514683629954364, 'Dev Macro-F-Score': 0.9598623118638102, 'Test Accuracy': 0.9871632106079842, 'Test Macro-Precision': 0.9669702217334665, 'Test Macro-Recall': 0.9452433885364444, 'Test Macro-F-Score': 0.9537624312786512}, 'Random Forests': {'Dev Accuracy': 0.9895612921427563, 'Dev Macro-Precision': 0.9647661754897078, 'Dev Macro-Recall': 0.9525959160647088, 'Dev Macro-F-Score': 0.9579439509858302, 'Test Accuracy': 0.9881506559458316, 'Test Macro-Precision': 0.9591671838820538, 'Test Macro-Recall': 0.9460548539732981, 'Test Macro-F-Score': 0.9516751442387547}, 'Naive Bayes': {'Dev Accuracy': 0.8399985893638031, 'Dev Macro-Precision': 0.7614620859839221, 'Dev Macro-Recall': 0.7406663726531779, 'Dev Macro-F-Score': 0.7382914548507354, 'Test Accuracy': 0.8395048666948793, 'Test Macro-Precision': 0.7584776647265361, 'Test Macro-Recall': 0.7396225449737251, 'Test Macro-F-Score': 0.7365922704927692}, 'KNN': {'Dev Accuracy': 0.9745732825504303, 'Dev Macro-Precision': 0.9024774304649339, 'Dev Macro-Recall': 0.9201489141154493, 'Dev Macro-F-Score': 0.9097171880500138, 'Test Accuracy': 0.9718930737762731, 'Test Macro-Precision': 0.8934381978502565, 'Test Macro-Recall': 0.9136094728735417, 'Test Macro-F-Score': 0.9011322335715889}}

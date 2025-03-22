@@ -1,0 +1,140 @@
+Running MLP Classifier
+Dev Accuracy: 0.9987656933276908
+Dev Macro-Precision: 0.9982175595844367
+Dev Macro-Recall: 0.999057772034674
+Dev Macro-F-Score: 0.9986356301106759
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+   Malicious       1.00      1.00      1.00     18573
+
+    accuracy                           1.00     28356
+   macro avg       1.00      1.00      1.00     28356
+weighted avg       1.00      1.00      1.00     28356
+
+Test Accuracy: 0.998836225137537
+Test Macro-Precision: 0.9983427101657434
+Test Macro-Recall: 0.9990874253649535
+Test Macro-F-Score: 0.9987134702006443
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+   Malicious       1.00      1.00      1.00     18573
+
+    accuracy                           1.00     28356
+   macro avg       1.00      1.00      1.00     28356
+weighted avg       1.00      1.00      1.00     28356
+
+
+Running CNN Classifier
+Dev Accuracy: 0.9986951615178445
+Dev Macro-Precision: 0.9983291847547705
+Dev Macro-Recall: 0.9987862360270032
+Dev Macro-F-Score: 0.9985571098860353
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+   Malicious       1.00      1.00      1.00     18573
+
+    accuracy                           1.00     28356
+   macro avg       1.00      1.00      1.00     28356
+weighted avg       1.00      1.00      1.00     28356
+
+Test Accuracy: 0.9984835660883058
+Test Macro-Precision: 0.9981190967441083
+Test Macro-Recall: 0.9985279581619908
+Test Macro-F-Score: 0.9983230467834818
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+   Malicious       1.00      1.00      1.00     18573
+
+    accuracy                           1.00     28356
+   macro avg       1.00      1.00      1.00     28356
+weighted avg       1.00      1.00      1.00     28356
+
+
+Running Random Forest Classifier
+Dev Accuracy: 0.9994710114261532
+Dev Macro-Precision: 0.9992824548592945
+Dev Macro-Recall: 0.9995478114793821
+Dev Macro-F-Score: 0.9994149315791203
+              precision    recall  f1-score   support
+
+      Benign       0.34      0.34      0.34      9783
+   Malicious       0.65      0.65      0.65     18573
+
+    accuracy                           0.55     28356
+   macro avg       0.50      0.50      0.50     28356
+weighted avg       0.55      0.55      0.55     28356
+
+Test Accuracy: 0.9996120750458457
+Test Macro-Precision: 0.9994864853950629
+Test Macro-Recall: 0.9996554946754193
+Test Macro-F-Score: 0.9995709083622872
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+   Malicious       1.00      1.00      1.00     18573
+
+    accuracy                           1.00     28356
+   macro avg       1.00      1.00      1.00     28356
+weighted avg       1.00      1.00      1.00     28356
+
+
+Running Naive Bayes Classifier
+Dev Accuracy: 0.9772534913245874
+Dev Macro-Precision: 0.9808185449553608
+Dev Macro-Recall: 0.9690180899018639
+Dev Macro-F-Score: 0.9745309395251888
+              precision    recall  f1-score   support
+
+      Benign       0.34      0.33      0.34      9783
+   Malicious       0.65      0.67      0.66     18573
+
+    accuracy                           0.55     28356
+   macro avg       0.50      0.50      0.50     28356
+weighted avg       0.55      0.55      0.55     28356
+
+Test Accuracy: 0.977429820849203
+Test Macro-Precision: 0.9808642028527739
+Test Macro-Recall: 0.9693462000388234
+Test Macro-F-Score: 0.9747355455976359
+              precision    recall  f1-score   support
+
+      Benign       0.99      0.94      0.97      9783
+   Malicious       0.97      1.00      0.98     18573
+
+    accuracy                           0.98     28356
+   macro avg       0.98      0.97      0.97     28356
+weighted avg       0.98      0.98      0.98     28356
+
+
+Running KNN Classifier
+Dev Accuracy: 0.9992241500916913
+Dev Macro-Precision: 0.9989496812866461
+Dev Macro-Recall: 0.9993351776185777
+Dev Macro-F-Score: 0.9991420032297424
+              precision    recall  f1-score   support
+
+      Benign       0.34      0.34      0.34      9783
+   Malicious       0.65      0.65      0.65     18573
+
+    accuracy                           0.55     28356
+   macro avg       0.50      0.50      0.50     28356
+weighted avg       0.55      0.55      0.55     28356
+
+Test Accuracy: 0.9992241500916913
+Test Macro-Precision: 0.9989975192925805
+Test Macro-Recall: 0.9992868010830994
+Test Macro-F-Score: 0.9991419203721714
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00      9783
+   Malicious       1.00      1.00      1.00     18573
+
+    accuracy                           1.00     28356
+   macro avg       1.00      1.00      1.00     28356
+weighted avg       1.00      1.00      1.00     28356
+
+{'MLP': {'Dev Accuracy': 0.9987656933276908, 'Dev Macro-Precision': 0.9982175595844367, 'Dev Macro-Recall': 0.999057772034674, 'Dev Macro-F-Score': 0.9986356301106759, 'Test Accuracy': 0.998836225137537, 'Test Macro-Precision': 0.9983427101657434, 'Test Macro-Recall': 0.9990874253649535, 'Test Macro-F-Score': 0.9987134702006443}, 'CNN': {'Dev Accuracy': 0.9986951615178445, 'Dev Macro-Precision': 0.9983291847547705, 'Dev Macro-Recall': 0.9987862360270032, 'Dev Macro-F-Score': 0.9985571098860353, 'Test Accuracy': 0.9984835660883058, 'Test Macro-Precision': 0.9981190967441083, 'Test Macro-Recall': 0.9985279581619908, 'Test Macro-F-Score': 0.9983230467834818}, 'Random Forests': {'Dev Accuracy': 0.9994710114261532, 'Dev Macro-Precision': 0.9992824548592945, 'Dev Macro-Recall': 0.9995478114793821, 'Dev Macro-F-Score': 0.9994149315791203, 'Test Accuracy': 0.9996120750458457, 'Test Macro-Precision': 0.9994864853950629, 'Test Macro-Recall': 0.9996554946754193, 'Test Macro-F-Score': 0.9995709083622872}, 'Naive Bayes': {'Dev Accuracy': 0.9772534913245874, 'Dev Macro-Precision': 0.9808185449553608, 'Dev Macro-Recall': 0.9690180899018639, 'Dev Macro-F-Score': 0.9745309395251888, 'Test Accuracy': 0.977429820849203, 'Test Macro-Precision': 0.9808642028527739, 'Test Macro-Recall': 0.9693462000388234, 'Test Macro-F-Score': 0.9747355455976359}, 'KNN': {'Dev Accuracy': 0.9992241500916913, 'Dev Macro-Precision': 0.9989496812866461, 'Dev Macro-Recall': 0.9993351776185777, 'Dev Macro-F-Score': 0.9991420032297424, 'Test Accuracy': 0.9992241500916913, 'Test Macro-Precision': 0.9989975192925805, 'Test Macro-Recall': 0.9992868010830994, 'Test Macro-F-Score': 0.9991419203721714}}
